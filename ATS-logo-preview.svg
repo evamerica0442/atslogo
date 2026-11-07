@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100">
+<defs>
+ <linearGradient id="silver" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".34" stop-color="#d9dee5"/><stop offset=".57" stop-color="#929eac"/><stop offset=".78" stop-color="#f8fbff"/><stop offset="1" stop-color="#a9b4c1"/></linearGradient>
+ <linearGradient id="silverDark" x2="0" y2="1"><stop stop-color="#566171"/><stop offset=".35" stop-color="#26364b"/><stop offset=".62" stop-color="#637084"/><stop offset="1" stop-color="#253248"/></linearGradient>
+ <linearGradient id="blue" x2=".2" y2="1"><stop stop-color="#75eaff"/><stop offset=".24" stop-color="#078eff"/><stop offset=".72" stop-color="#0052d6"/><stop offset="1" stop-color="#009cff"/></linearGradient>
+ <linearGradient id="swoosh" x2=".15" y2="1"><stop stop-color="#89faff"/><stop offset=".42" stop-color="#00bfff"/><stop offset="1" stop-color="#0075ef"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#fff"/><stop offset=".18" stop-color="#cfffff"/><stop offset=".35" stop-color="#13c8ff" stop-opacity=".95"/><stop offset="1" stop-color="#008aff" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="9"/></filter>
+ <g id="mark">
+  <!-- Custom geometric letterforms, proportioned from the supplied raster -->
+  <path fill="url(#blue)" stroke="#8beeff" stroke-width="2" d="M108 304 252 71 390 235 313 260 238 143 157 286Q146 306 124 307Q112 307 108 304Z"/>
+  <path fill="url(#blue)" stroke="#8beeff" stroke-width="2" d="m340 311 71-26 72 109H394Z"/>
+  <path fill="url(#silver)" stroke="#f5f8fc" stroke-width="1.5" d="M319 84H615V153H497V393H425V153H381Z"/>
+  <path fill="url(#silver)" stroke="#f5f8fc" stroke-width="1.5" d="M891 84H669Q625 84 625 131V219Q625 273 683 273H811Q837 273 837 297Q837 322 810 322H633L585 393H815Q909 393 909 301Q909 215 823 215H700Q680 215 680 194Q680 171 704 153H850Z"/>
+  <!-- fine orbit arc and tapered foreground swoosh -->
+  <path d="M523 84C633 17 788 19 919 80" fill="none" stroke="#20d8ff" stroke-width="6"/>
+  <path fill="url(#swoosh)" stroke="#74edff" stroke-width="2" d="M651 177C516 208 328 269 157 324 105 341 71 339 60 319 48 296 77 260 137 220 59 259 19 305 31 338 45 376 96 375 158 356 326 304 504 233 651 177Z"/>
+  <circle cx="933" cy="87" r="31" fill="#00aaff" opacity=".7" filter="url(#glow)"/><circle cx="933" cy="87" r="13" fill="url(#halo)"/><circle cx="933" cy="87" r="7" fill="#fff"/>
+ </g>
+ <g id="mono" fill="#080d17">
+  <path d="M108 304 252 71 390 235 313 260 238 143 157 286Q146 306 124 307Q112 307 108 304Z M340 311l71-26 72 109H394Z"/>
+  <path d="M319 84H615V153H497V393H425V153H381Z"/>
+  <path d="M891 84H669Q625 84 625 131V219Q625 273 683 273H811Q837 273 837 297Q837 322 810 322H633L585 393H815Q909 393 909 301Q909 215 823 215H700Q680 215 680 194Q680 171 704 153H850Z"/>
+  <path d="M523 84C633 17 788 19 919 80" fill="none" stroke="#080d17" stroke-width="6"/>
+  <path d="M651 177C516 208 328 269 157 324 105 341 71 339 60 319 48 296 77 260 137 220 59 259 19 305 31 338 45 376 96 375 158 356 326 304 504 233 651 177Z"/>
+  <circle cx="933" cy="87" r="9"/>
+ </g>
+</defs>
+<rect width="1600" height="1100" fill="#eef2f7"/>
+<text x="70" y="75" font-family="Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="4" fill="#253247">ATS · VECTOR REDRAW PREVIEW</text>
+<rect x="60" y="105" width="1480" height="485" rx="22" fill="#06162d"/>
+<g transform="translate(325 130) scale(1.05)"><use href="#mark"/></g>
+<text x="93" y="558" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="4" fill="url(#silver)">AMERICA <tspan fill="#0c9bea">TECHNOLOGY</tspan> SERVICES</text>
+<text x="70" y="658" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#465367">LIGHT SURFACE</text>
+<rect x="60" y="680" width="940" height="345" rx="18" fill="#fff" stroke="#d7dee8"/>
+<g transform="translate(105 710) scale(.84)">
+ <path fill="url(#blue)" stroke="#168ee5" stroke-width="2" d="M108 304 252 71 390 235 313 260 238 143 157 286Q146 306 124 307Q112 307 108 304Z M340 311l71-26 72 109H394Z"/>
+ <path fill="url(#silverDark)" d="M319 84H615V153H497V393H425V153H381Z M891 84H669Q625 84 625 131V219Q625 273 683 273H811Q837 273 837 297Q837 322 810 322H633L585 393H815Q909 393 909 301Q909 215 823 215H700Q680 215 680 194Q680 171 704 153H850Z"/>
+ <path d="M523 84C633 17 788 19 919 80" fill="none" stroke="#00aef0" stroke-width="6"/>
+ <path fill="url(#swoosh)" d="M651 177C516 208 328 269 157 324 105 341 71 339 60 319 48 296 77 260 137 220 59 259 19 305 31 338 45 376 96 375 158 356 326 304 504 233 651 177Z"/><circle cx="933" cy="87" r="9" fill="#00aef0"/>
+</g>
+<text x="120" y="1000" font-family="Arial,sans-serif" font-size="32" font-weight="700" letter-spacing="2" fill="#334256">AMERICA <tspan fill="#078fd2">TECHNOLOGY</tspan> SERVICES</text>
+<text x="1050" y="658" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#465367">ONE COLOUR · ICON</text>
+<rect x="1020" y="680" width="520" height="345" rx="18" fill="#fff" stroke="#d7dee8"/>
+<g transform="translate(1040 720) scale(.38)" fill="#080d17">
+ <path d="M108 304 252 71 390 235 313 260 238 143 157 286Q146 306 124 307Q112 307 108 304Z M340 311l71-26 72 109H394Z M319 84H615V153H497V393H425V153H381Z M891 84H669Q625 84 625 131V219Q625 273 683 273H811Q837 273 837 297Q837 322 810 322H633L585 393H815Q909 393 909 301Q909 215 823 215H700Q680 215 680 194Q680 171 704 153H850Z"/>
+ <path d="M523 84C633 17 788 19 919 80" fill="none" stroke="#080d17" stroke-width="6"/>
+ <path d="M651 177C516 208 328 269 157 324 105 341 71 339 60 319 48 296 77 260 137 220 59 259 19 305 31 338 45 376 96 375 158 356 326 304 504 233 651 177Z"/><circle cx="933" cy="87" r="9"/>
+</g>
+<rect x="1260" y="740" width="220" height="220" rx="32" fill="#06162d"/>
+<g transform="translate(1266 770) scale(.226)"><path fill="url(#blue)" stroke="#8beeff" stroke-width="4" d="M108 304 252 71 390 235 313 260 238 143 157 286Q146 306 124 307Q112 307 108 304Z M340 311l71-26 72 109H394Z"/><path d="M523 84C633 17 788 19 919 80" fill="none" stroke="#20d8ff" stroke-width="13"/><path fill="url(#swoosh)" d="M651 177C516 208 328 269 157 324 105 341 71 339 60 319 48 296 77 260 137 220 59 259 19 305 31 338 45 376 96 375 158 356 326 304 504 233 651 177Z"/><circle cx="933" cy="87" r="12" fill="#fff"/></g>
+<text x="1244" y="995" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#526075">ICON · A + SWOOSH</text>
+</svg>
